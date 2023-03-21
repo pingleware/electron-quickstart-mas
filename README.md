@@ -89,11 +89,7 @@ Asset validation failed (90284)
 Invalid Code Signing. The executable 'work.pingleware.quickstart.pkg/Payload/Quickstart by PINGLEWARE.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libswiftshader_libGLESv2.dylib' must be signed with the certificate that is contained in the provisioning profile. (ID: ff988f99-6bca-465b-8a38-462372c95a1f)
 ```
 
-
-
 Change the Certificate  selection in the Profiles from Mac App Distribution and selected the Distribution certification and success, then downloaded the new provisioning profile #-2. See log
-
-![1679425288907](image/README/1679425288907.png)
 
 ```
 2023-03-21 14:40:56.598  INFO: ContentDelivery version 2.14.8 (14038).
