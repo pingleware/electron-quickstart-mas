@@ -6,7 +6,7 @@
     <true/>
     <key>com.apple.security.application-groups</key>
     <array>
-      <string>12345ABCDE.com.domainname.appname</string>
+      <string>8379JDXGLX.work.pingleware.quickstart</string>
     </array>
     <!-- Put any entitlements your app requires here. Below is a example -->  
     <!-- <key>com.apple.security.files.user-selected.read-write</key><true/> --> 

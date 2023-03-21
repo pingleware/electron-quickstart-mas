@@ -1,24 +1,28 @@
 {
-  "name": "AppName",
+  "name": "quickstart",
   "version": "1.0.0",
   "description": "A minimal Electron application to test MAS builds",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder --mac --universal"
   },
-  "repository": "https://github.com/steve981cr/electron-quickstart-mas",
-  "keywords": ["Electron", "mas"],
-  "author": "YOUR NAME",
+  "repository": "https://github.com/pingleware/electron-quickstart-mas.git",
+  "keywords": [
+    "Electron",
+    "mas"
+  ],
+  "author": "PRESSPAGE ENTERTAINMENT INC dba PINGLEWARE",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^17.1.2",
     "electron-builder": "^22.14.13"
   },
   "build": {
-    "appId": "com.domainname.appname",
+    "appId": "work.pingleware.quickstart",
     "buildVersion": "1",
-    "productName": "Quickstart-mas",
-    "copyright": "Copyright © 2022 YOUR NAME HERE",
+    "productName": "Quickstart by PINGLEWARE",
+    "copyright": "Copyright © 2023 PRESSPAGE ENTERTAINMENT INC",
     "mac": {
       "target": "mas",
       "type": "distribution",
@@ -28,8 +32,7 @@
       "icon": "build/icon.icns",
       "entitlements": "build/entitlements.mas.plist",
       "entitlementsInherit": "build/entitlements.mas.inherit.plist",
-      "provisioningProfile": "build/MacAppStore.provisionprofile"
+      "provisioningProfile": "build/Quickstart_MacAppStore-2.provisionprofile"
     }
-  },
-  "dependencies": {}
+  }
 }
