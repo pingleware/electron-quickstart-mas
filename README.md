@@ -213,7 +213,4 @@ UPLOAD SUCCEEDED
 Delivery UUID: 4a65f9a2-a013-408e-a9b5-469ad22dca22
 Transferred 152176138 bytes in 1.07 minutes (2.4MB/s)
 ================
-
 ```
-
-![1679425300032](image/README/1679425300032.png)
