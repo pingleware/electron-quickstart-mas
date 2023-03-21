@@ -91,6 +91,8 @@ Invalid Code Signing. The executable 'work.pingleware.quickstart.pkg/Payload/Qui
 
 Change the Certificate  selection in the Profiles from Mac App Distribution and selected the Distribution certification and success, then downloaded the new provisioning profile #-2. See log
 
+![1679425710471](image/README/1679425710471.png)
+
 ```
 2023-03-21 14:40:56.598  INFO: ContentDelivery version 2.14.8 (14038).
 2023-03-21 14:40:56.599  INFO: Show Progress: Contacting Apple Services…
@@ -210,3 +212,5 @@ Delivery UUID: 4a65f9a2-a013-408e-a9b5-469ad22dca22
 Transferred 152176138 bytes in 1.07 minutes (2.4MB/s)
 ================
 ```
+
+![1679425725084](image/README/1679425725084.png)
